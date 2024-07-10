@@ -67,7 +67,7 @@ This repository contains automated tests for the Sauce Demo application the test
   **Generate Allure Report**
   
   ```bash
-     mvn clean test
+    mvn allure:report
   ```
      
 
