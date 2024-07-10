@@ -20,6 +20,7 @@ public class Base {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
+        options.addArguments("--remote-allow-origins=*");
 
         driver = new ChromeDriver(options);
         driver.get("https://www.saucedemo.com");
